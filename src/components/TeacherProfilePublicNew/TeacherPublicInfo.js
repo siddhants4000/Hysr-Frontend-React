@@ -10,7 +10,7 @@ const TeacherPublicProfile = () => {
   const username = queryParams.get('username');
 
   // State to track whether the data is being edited
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing] = useState(false);
 
   // State to store the form data
   const [formData, setFormData] = useState({
