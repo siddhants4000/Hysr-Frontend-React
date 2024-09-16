@@ -1,0 +1,70 @@
+.chat-sidebar {
+    width: 300px;
+    height: 100vh;
+    background-color: #242526;
+    color: white;
+    padding: 20px;
+    border-right: 1px solid #3A3B3C;
+  }
+  
+  .chat-sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: #3A3B3C;
+    color: white;
+  }
+  
+  .contacts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .contact-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .contact-info {
+    flex-grow: 1;
+  }
+  
+  .contact-info h3 {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    color: #B0B3B8;
+  }
+  
+  .contact-info span {
+    font-size: 0.8em;
+    color: #B0B3B8;
+  }
+  
+  .see-all {
+    display: block;
+    margin-top: 10px;
+    color: #2D88FF;
+    text-align: center;
+    text-decoration: none;
+  }
+  

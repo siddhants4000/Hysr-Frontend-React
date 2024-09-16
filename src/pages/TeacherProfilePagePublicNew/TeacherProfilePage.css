@@ -1,0 +1,102 @@
+/* General layout of the user profile page */
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.profile-section {
+  width: 25%;
+}
+
+.info-section {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+  gap: 20px; /* Add space between the grid items */
+}
+
+/* Making the SkillsSection span the entire row */
+.skills-section-row {
+  grid-column: span 2; /* Span the entire width of the grid (2 columns) */
+}
+
+.contact-info, .project-status {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Project status styles */
+.project-status .project {
+  margin-bottom: 15px;
+}
+
+.project-status .progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.project-status .progress {
+  background-color: #007bff;
+  height: 10px;
+}
+
+/* Hover effect for the StudentProfile components */
+.card-effect {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.card-effect:hover {
+  transform: scale(1.05); /* Slightly increase the size */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Styling for the profile card */
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for some depth */
+  max-width: 300px; /* You can adjust the width as per your design */
+  margin: 0 auto; /* Center the card itself in its container */
+}
+
+/* Styling for avatar */
+.profile-card img.avatar {
+  width: 120px; /* Increased size for better visibility */
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Styling for social links and general text */
+.profile-card h2 {
+  margin: 10px 0;
+}
+
+.profile-card p {
+  margin: 5px 0;
+}
+
+.social-links p {
+  margin: 5px 0;
+}
+
+.social-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

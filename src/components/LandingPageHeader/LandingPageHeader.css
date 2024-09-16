@@ -1,0 +1,62 @@
+.landing-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: grey;
+    height: 60px; /* Adjust this value to match the actual height of your header */
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px; /* Adds space between the nav links */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: black;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .join-now,
+  .sign-in {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .join-now:hover,
+  .sign-in:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    background-color: black;
+  }
+  

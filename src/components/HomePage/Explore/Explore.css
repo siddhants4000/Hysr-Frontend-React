@@ -1,0 +1,28 @@
+.explore {
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .explore h2 {
+    font-size: 1.5em;
+  }
+  
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .topic-button {
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topic-button:hover {
+    background-color: #005580;
+  }
+  

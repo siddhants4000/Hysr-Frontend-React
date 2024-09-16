@@ -1,0 +1,26 @@
+.contact-info input, .contact-info select {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Match the input field border */
+  border-radius: 5px; /* Optional: If you want rounded corners */
+}
+
+.edit-button, .save-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #28a745;
+}
+
+.edit-button:hover, .save-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,59 @@
+.studentCardBody {
+    padding: 5rem 0rem;
+
+}
+
+.studentCardBody:hover {
+    transform: scale(1.05);
+    transition: transform .5s;
+    cursor: pointer;
+}
+
+.studentCardImage{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.studentCard-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+  }
+
+.studentCardOverall {
+    width: 18rem;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 2rem; 
+    background-color: rgb(52, 226, 245);
+}
+
+.student-button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px 10px; /* Add some margin between buttons */
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-button-link:hover {
+    background-color: #0056b3;
+  }
+
+  .student-button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10px; /* Space between buttons */
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  

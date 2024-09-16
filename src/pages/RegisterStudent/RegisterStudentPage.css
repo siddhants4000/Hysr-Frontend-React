@@ -1,0 +1,104 @@
+.register-form-student {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.register-form-student h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.upload-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.upload-label {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+  
+.camera-icon {
+    margin-right: 5px;
+}
+  
+.upload-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Add margin to separate from file input */
+}
+  
+.upload-button:hover {
+    background-color: #0056b3;
+}
+  
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+.register-button,
+.login-button {
+    width: 48%; /* Adjust width to fit both buttons */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+  
+.register-button {
+    background-color: #007bff;
+    color: white;
+}
+  
+.register-button:hover {
+    background-color: #0056b3;
+}
+  
+.login-button {
+    background-color: #ddd;
+    color: black;
+}
+  
+.login-button:hover {
+    background-color: #ccc;
+}
+
+.required {
+    color: red;
+  }
+  

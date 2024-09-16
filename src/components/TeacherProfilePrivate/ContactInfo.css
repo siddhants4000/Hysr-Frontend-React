@@ -1,0 +1,73 @@
+/* Styling for the contact-info input fields */
+.contact-info input, .contact-info select {
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for the save and edit buttons */
+.edit-button, .save-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-button {
+  background-color: #28a745;
+}
+
+.edit-button:hover, .save-button:hover {
+  background-color: #0056b3;
+}
+
+/* Hover effect for buttons */
+.save-button:hover {
+  background-color: #218838;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for profile-card */
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-card img.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.social-links p {
+  margin: 5px 0;
+}
+
+/* Ensures that the edit-section input fields share the same style */
+.edit-section input, .edit-section select {
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Added consistency for the form fields */
+.edit-section {
+  margin-top: 20px;
+}
