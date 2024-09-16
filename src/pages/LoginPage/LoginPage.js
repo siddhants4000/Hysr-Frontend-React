@@ -95,11 +95,11 @@ const LoginPage = () => {
               placeholder="Password"
               required
             />
-            <a href="#" className="forgot-link">Forgot?</a>
+            <a href="https://www.google.com/" className="forgot-link">Forgot?</a>
           </div>
           <button type="submit" className="login-button">Login</button>
         </form>
-        <p className="signup-text">No account? <a href="#">Signup</a></p>
+        <p className="signup-text">No account? <a href="https://www.google.com/">Signup</a></p>
       </div>
     </div>
   );
