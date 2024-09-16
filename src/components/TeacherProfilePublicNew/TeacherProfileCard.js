@@ -46,6 +46,8 @@ const TeacherProfileCard = () => {
     }));
   };
 
+  console.log(handleChange);
+
   return (
     <div className="profile-card">
       <img
