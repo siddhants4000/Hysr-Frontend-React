@@ -28,7 +28,7 @@ const ChatSidebar = () => {
           </li>
         ))}
       </ul>
-      <a href="#" className="see-all">See all in Messenger</a>
+      <a href="https://www.google.com/" className="see-all">See all in Messenger</a>
     </div>
   );
 };
