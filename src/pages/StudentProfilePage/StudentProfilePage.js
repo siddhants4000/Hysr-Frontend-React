@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import ProfileCard from '../../components/StudentProfile/StudentProfileCard';
-import ProjectStatus from '../../components/StudentProfile/ProjectStatus';
 import './StudentProfilePage.css';
 import Header from '../../components/Header/Header';
 import ChatApp from '../../components/ChatMessenger/ChatMessenger';
 import StudentProfile from '../../components/StudentProfile/StudentContactInfo';
-import StudentProfile1 from '../../components/StudentProfile/StudentContactInfo1';
 import StudentProfile2 from '../../components/StudentProfile/StudentContactInfo2';
 import StudentProfile3 from '../../components/StudentProfile/StudentContactInfo3';
 
