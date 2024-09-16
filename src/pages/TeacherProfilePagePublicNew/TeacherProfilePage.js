@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ProjectStatus from '../../components/StudentProfile/ProjectStatus';
 import './TeacherProfilePage.css';
 import Header from '../../components/Header/Header';
 import ChatApp from '../../components/ChatMessenger/ChatMessenger';
