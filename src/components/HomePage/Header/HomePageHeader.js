@@ -16,7 +16,7 @@ const HomePageHeader = () => {
                   loop
                 />
               </div>
-              <p>New to HYSR? <a href="#">Join now</a></p>
+              <p>New to HYSR? <a href="https://www.google.com/">Join now</a></p>
             </div>
             <div className="login-buttons">
               <button className="google-button">
