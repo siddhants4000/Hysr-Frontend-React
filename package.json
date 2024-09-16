@@ -18,6 +18,9 @@
     "react-typed": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.20.1"  // Added missing Babel plugin here
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
