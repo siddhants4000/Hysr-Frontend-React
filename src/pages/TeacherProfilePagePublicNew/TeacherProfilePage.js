@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './TeacherProfilePage.css';
 import Header from '../../components/Header/Header';
 import ChatApp from '../../components/ChatMessenger/ChatMessenger';
-import TeacherPublicProfile1 from '../../components/TeacherProfilePublicNew/TeacherPublicInfo1';
 import TeacherPublicProfile from '../../components/TeacherProfilePublicNew/TeacherPublicInfo';
 import TeacherPublicProfile2 from '../../components/TeacherProfilePublicNew/TeacherPublicInfo2';
 import TeacherPublicProfile3 from '../../components/TeacherProfilePublicNew/TeacherPublicInfo3';
